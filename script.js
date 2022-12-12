@@ -22,4 +22,11 @@ function factorial(a) {
         return a * factorial(a - 1)
     }
 }
-factorial(6)
+
+//функція, яка приймає три окремі числа і перевторює їх в одне число
+function num(a, b, c) {
+    let first = String(a)
+    let second = String(b)
+    let third = String(c)
+    return first + second + third
+}
