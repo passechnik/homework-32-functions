@@ -30,3 +30,25 @@ function num(a, b, c) {
     let third = String(c)
     return first + second + third
 }
+
+//функція, яка обчислює площу прямокутника/квадрата
+function area(a, b) {
+    if (b) {
+        return a * b
+    } else return a * a
+}
+
+//перевірка на досконале число
+// function perfectNum(number) {
+//     let temp = 0;
+//         for( let i = 1; i <= number / 2; i++) {
+//             if(number % 1 === 0) {
+//                 temp += i;
+//             }
+//         }
+//         if(temp === number && temp !== 0) {
+//             console.log(`It's perfect number`);
+//         } else {
+//             console.log(`It ain't pefcet number`)
+//         }
+// }
